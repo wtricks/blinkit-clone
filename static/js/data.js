@@ -13,8 +13,8 @@ export default {
         "./static/images/category/Slice-11.webp",
         "./static/images/category/Slice-12.webp",
         "./static/images/category/Slice-13.webp",
-        "./static/images/category/Slice-14.PNG",
-        "./static/images/category/Slice-15.PNG",
+        "./static/images/category/Slice-9_3.webp",
+        "./static/images/category/Slice-11.webp",
         "./static/images/category/Slice-16.webp",
         "./static/images/category/Slice-17.webp",
         "./static/images/category/Slice-18.webp",
@@ -27,7 +27,7 @@ export default {
         "./static/images/category/Slice-7_3.webp",
         "./static/images/category/Slice-8_4.webp",
         "./static/images/category/Slice-9_3.webp",
-        "./static/images/category/Slice-15.PNG",
+        "./static/images/category/Slice-11.webpG",
     ],
     "products": [
         {
