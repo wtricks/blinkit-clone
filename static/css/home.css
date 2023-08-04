@@ -1,0 +1,261 @@
+header {
+    height: 86px;
+    padding: 0 16px;
+    z-index: 100;
+}
+
+.blinkit-logo {
+    max-width: 170px;
+    min-width: 100px;
+}
+
+.location {
+    max-width: 300px;
+    cursor: pointer;
+    min-width: 240px;
+}
+
+.location h2 {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.location h2 + div {
+    font-size: 0.9rem;
+}
+
+.search-input {
+    min-width: 250px;
+}
+
+.search-input a {
+    height: 46px;
+    padding: 0.6rem;
+    transition: 0.3s;
+}
+
+.search-input a:hover {
+    border-color: #198754 !important;
+}
+
+.search-input span {
+    top: 50%;
+    font-size: 1rem;
+    margin-left: 14px;
+    transform: translateY(50px);
+    animation: goup 3s ease-in-out infinite;
+}
+
+.search-input span:nth-child(2) {
+    animation-delay: 1s;
+}
+
+.search-input span:nth-child(3) {
+    animation-delay: 2s;
+}
+
+@keyframes goup {
+    0% {
+        transform: translateY(50px);
+        opacity: 0.3;
+    }
+    40%,60% {
+        transform: translateY(-50%);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-50px);
+        opacity: 0.3;
+    }
+}
+
+.hover {
+    transition: 0.3s;
+}
+
+.hover:hover {
+    background-color: #f7f7f7;
+}
+
+.login {
+    max-width: 160px;
+}
+
+.cart button svg {
+    margin-right: 12px;
+    height: 32px;
+}
+
+.shop img {
+    max-width: 1320px;
+    width: 100%;
+}
+
+.main {
+    padding: 8px 12px;
+    overflow: hidden;
+}
+
+/* Styles for the swiper container and slides */
+.slide-swiper {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+  
+.swiper-slide {
+    border-radius: 10px;
+    margin-right: 20px;
+    width: 100%;
+    max-width: max-content;
+    overflow: hidden;
+}
+ 
+/* Category */
+.category {
+    padding-left: 0 !important;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.category li {
+    transition: 0.3s;
+}
+
+.category li:hover {
+    transform: scale(0.9);
+}
+
+.category img {
+    max-width: 100%;
+}
+
+section {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 1280px;
+}
+
+/* Products */
+.product {
+    width: 179px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.04) 2px 2px 8px;
+}
+
+.product .offer {
+    left: 10px;
+    position: absolute;
+    top: 0;
+}
+
+.product .offer span {
+    font-weight: 800;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 0.5rem;
+    transform: translate(-50%,-50%);
+}
+
+.product img {
+    width: 140px;
+    height: 140px;
+}
+
+.product .timer {
+    font-size: 9px;
+    background-color: #dbdbdc;
+    text-transform: uppercase;
+    padding: 2px 4px;
+    border-radius: 4px;
+    width: max-content;
+}
+
+.product .timer svg {
+    margin-right: 4px;
+}
+
+.product h5 {
+    font-size: 0.9rem;
+    margin-top: 8px;
+}
+
+.product p {
+    font-size: 0.7rem;
+    color: gray;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.product .card-body {
+    padding-bottom: 0.7rem;
+}
+
+.product .card-footer {
+    padding-top: 0;
+}
+
+.product .price {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.product .price span:nth-child(2) {
+    text-decoration: line-through;
+}
+.product .price span::before {
+    content: '₹ ';
+}
+
+.swiper-wrapper {
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+.swiper-wrapper .swiper-slide {
+    border-radius: 0 !important;
+}
+
+
+footer {
+    font-size: 0.9rem;
+    padding: 12px;
+    margin-top: 10px;
+    /* background-color: gray; */
+}
+
+footer .options {
+    padding: 0 20px;
+}
+
+footer .options a {
+    color: gray;
+    font-size: 0.9rem;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+footer .options h4 {
+    margin-bottom: 10px;
+}
+
+footer img {
+    height: 30px;
+    margin-left: 12px;
+}
+
+footer .bottom {
+    margin-top: 20px;
+    background-color: rgb(240, 240, 240);
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+footer .bottom p {
+    font-size: 0.9rem;
+    color: gray;
+    margin-bottom: 0;
+}
